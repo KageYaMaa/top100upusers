@@ -4,5 +4,5 @@ def get_names(src):
     return name_list.split("、")
 
 if __name__ == "__main__":
-    src = "name_list.txt"
+    src = "../src/name_list.txt"
     get_names(src)

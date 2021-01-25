@@ -5,12 +5,9 @@ get information of a upuser in bilibili
 '''
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 import time
-from selenium.common import exceptions
 
-import enter_space
-
+from get_upuser_info import enter_space
 
 chromedriver = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
 
@@ -83,4 +80,4 @@ def get_upuser_info(name,url_upuser_space):
 
 
 if __name__ == '__main__':
-    print(get_upuser_info("啊吗粽",enter_space.enter_space("啊吗粽")))
+    print(get_upuser_info("啊吗粽", enter_space.enter_space("啊吗粽")))
