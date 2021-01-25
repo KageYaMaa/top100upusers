@@ -1,4 +1,4 @@
-import get_names
+import get_upuser_names.get_names
 from get_upuser_info import enter_space
 import get_upuser_info
 import json
